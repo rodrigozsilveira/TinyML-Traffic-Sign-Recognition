@@ -9,7 +9,7 @@ This project presents a low-cost embedded system designed to **detect the presen
 
 ## Software
 
-- Frameworks: **Edge Impulse** + **TensorFlow**  for model development
+- Framework: **Edge Impulse** for model development
 - **Arduino IDE** for real time inferencing
 
 ## Dataset
