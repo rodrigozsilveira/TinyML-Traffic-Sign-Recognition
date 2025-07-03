@@ -7,11 +7,18 @@ This project presents a low-cost embedded system designed to **detect the presen
 - Arduino Nano 33 BLE Sense  
 - CMOS OV7675 Camera  
 
+## Software
+
+- Frameworks: **Edge Impulse** + **TensorFlow**  for model development
+- **Arduino IDE** for real time inferencing
+
 ## Dataset
 
 The model was trained on a **public dataset from Kaggle**, modified to include both images with and without signs, ensuring class balance and quality control.  
 Main dataset: [Road Sign Detection – Kaggle](https://www.kaggle.com/datasets/andrewmvd/road-sign-detection)
 
+## Results
 
+While downscaling (96x96) improves speed and memory usage, it can reduce accuracy in complex scenes (e.g., multiple signs, poor lighting, angled views). Despite this, the model was effective for its primary goal.
 
 > **Developed at UNIFEI – IESTI | 2025**
